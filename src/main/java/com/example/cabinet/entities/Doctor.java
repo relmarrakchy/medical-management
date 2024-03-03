@@ -8,18 +8,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
 import java.util.List;
 
 @Entity
 @Data @AllArgsConstructor @NoArgsConstructor
-public class Patient {
+public class Doctor {
     @Id
     private long id;
     private String name;
-    private Date birthday;
-    private boolean diseased;
-    private int score;
-    @OneToMany(mappedBy = "patient", fetch = FetchType.EAGER)
+    private String speciality;
+    @OneToMany(mappedBy = "doctor", fetch = FetchType.EAGER)
     List<Appointment> appointments;
 }

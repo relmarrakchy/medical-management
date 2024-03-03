@@ -34,3 +34,15 @@
 ![img_16.png](pics/img_16.png)
 ![img_17.png](pics/img_17.png)
 ![img_18.png](pics/img_18.png)
+
+## Adding Doctor :
+![img.png](pics/img_101.png)
+![img_1.png](pics/img_110.png)
+
+## Adding Appointment :
+![img_2.png](pics/img_120.png)
+![img_3.png](pics/img_130.png)
+
+## Final Result :
+![img_4.png](pics/img_140.png)
+![img_5.png](pics/img_150.png)
